@@ -1,0 +1,165 @@
+/*NAVBAR*/
+.fixed-nav{
+  position: relative;
+  float:right;
+  width: auto;
+}
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background: linear-gradient(rgba(40,44,52,1),rgba(40, 44, 52, 0.8));
+  border-top-left-radius: 24px;
+  
+} 
+/* Navbar links */
+.topnav a {
+  -webkit-text-fill-color: rgba(40, 44, 52, 0.1); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: var(--colortheme);
+  font-weight: bolder;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color:var(--colortheme);
+  border-bottom: 2px solid transparent;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.topnav a:hover {
+  -webkit-text-fill-color: var(--azzurra); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color:var(--snow);
+  color: var(--snow);
+  border-bottom: 2px solid var(--colortheme);
+}
+.nav-links{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style:none;
+  padding-top: 24px;
+}
+
+@media screen and (max-width:768px) {
+  .nav-wrapper{
+  
+    width:192px;
+    float:right;
+    transition:ease 1s;
+  }
+  .nav-wrapper a{
+    display: block;
+    float:none;
+    width:100%;
+    text-align:right;
+    transition: all 0.2s ease;
+   
+  }
+  .nav-wrapper a:nth-child(1){
+    transition-delay:0.2s;
+  }
+  .nav-wrapper a:nth-child(2){
+    transition-delay:0.3s;
+  }
+  .nav-wrapper a:nth-child(3){
+    transition-delay:0.4s;
+  }
+  .nav-wrapper a:not :first-child{
+    margin-left:0;
+  }
+  .nav-wrapper{
+    opacity:0;
+    transition: all 0.2s ease;
+  }
+
+  .nav-btn{
+    position:fixed;
+    left:12px;
+    top:12px;
+    display:block;
+    width:24px;
+    height:24px;
+    cursor:pointer;
+    z-index:999;
+    border-radius: 50%;
+    
+  }
+  .nav-btn i {
+    display:block;
+    width:20px;
+    height:2px;
+    background: var(--colortheme);
+  }
+  .nav-btn i:nth-child(1){
+    margin-top: 6px;
+  }
+  .nav-btn i:nth-child(2){
+    margin-top: 4px;
+    opacity:1;
+  }
+  .nav-btn i:nth-child(3){
+    margin-top: 4px;   
+  }  
+}
+#nav:checked ~ .nav-wrapper{
+  opacity: 1;
+}
+#nav:checked ~ .nav-wrapper a{
+  opacity: 1;
+
+}
+#nav:checked + .nav-btn{
+  transform: rotate(45deg);
+
+}
+#nav:checked + .nav-btn i{
+  background: var(--colortheme);
+  transition: transform 0.2s ease;
+}
+#nav:checked + .nav-btn i:nth-child(1){
+  transform: translateY(6px) rotate(180deg);
+}
+#nav:checked + .nav-btn i:nth-child(2){
+  opacity:0;
+}
+#nav:checked + .nav-btn i:nth-child(3){
+  transform: translateY(-6px) rotate(90deg);
+}
+
+.hidden{
+  display:none;
+}
+/*FOOTER LINKS*/
+.foot-links{
+  width:5%;
+  display:inline-block;
+  justify-content: space-around;
+  align-items: center;
+  list-style:none;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+  /* SIDEBAR */
+.sidebar  {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f1f1f1;
+  display: block;
+}
+/* Style links on mouse-over */
+.sidebar:hover {
+  color: var(--colortheme);
+}
+
+/* Style the main content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+}

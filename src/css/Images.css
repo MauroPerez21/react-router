@@ -1,0 +1,37 @@
+@media screen and (max-width: 768px) {
+    .scale-images {
+      width:200px;
+      height:200px;
+    }
+  }
+  
+  .scale-images{
+  width:200px;
+  height:200px;
+  }
+  .banner-images{
+    width:75%;
+    height:100%;
+  }
+  .map{
+    width:300px;
+    height:200px;
+    background: var(--azzurra);
+  }
+  .avatar{
+      width:288px;
+      height:100%;
+
+      border-radius: 50%;
+      border:  2px solid var(--colortheme);
+     
+  }
+  .clipboard-rotate20{
+     width:288px;
+     height:100%;
+     border-radius:12px;
+     transform: rotate(-20deg); 
+  }
+  .border-right{
+      border-right: 2px solid var(--colortheme);
+  }
