@@ -8,7 +8,7 @@
 @import url("./Containers.css");
 @import url("./SubscribeCard.css");
 @import url("./Images.css");
-
+/*@import url('bootstrap/dist/css/bootstrap.min.css');*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -53,7 +53,7 @@ h1 h2 h3 h4 h5 h6{
 h1{
   -webkit-text-fill-color: var(--snow); /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--redwine);
+  -webkit-text-stroke-color: var(--colortheme);
   font-weight:bold;
   font-size: larger;
   line-height: 2em;
@@ -62,32 +62,68 @@ h3{
   margin:0;
     text-align:center;
     font-size: 2em;
-    color:var(--deepcolor);
+    -webkit-text-fill-color: var(--azzurra); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--colortheme);
   font-weight:bold;
 }
 h4{
-  -webkit-text-fill-color: var(--snow); /* Will override color (regardless of order) */
+  -webkit-text-fill-color: var(--azzurra); /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--deepcolor);
 }
 
 h5{
   
-  -webkit-text-fill-color: var(--snow); /* Will override color (regardless of order) */
+  -webkit-text-fill-color: var(--azzurra); /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: var(--colortheme);
+  -webkit-text-stroke-color: var(--deepcolor);
   line-height:2;
 }
+.btn-text{
+  -webkit-text-fill-color: var(--deepcolor); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--snow);
+  line-height:2;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.btn-aside{
+  
+    padding:5px;
+  
+    border-bottom:1px solid var(--colortheme);
+    width:100%;
+    text-decoration: none;
+    color:var(--colortheme);
+    background: var(--deepcolor);
+    text-transform:uppercase;
+    letter-spacing: 0.02em;
+}
+.btn-aside em{
+  -webkit-text-fill-color: var(--deepcolor); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--colortheme);
+}
+.btn-aside em:hover,
+.btn-aside em:focus,
+.btn-aside em:active{
+  
+  -webkit-text-fill-color: var(--colortheme); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--snow);
+}
+
 h6{
   
-  -webkit-text-fill-color: var(--snow); /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-fill-color: var(--deepcolor); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--deepcolor);
 }
 .theme-text{
   -webkit-text-fill-color: var(--deepcolor); /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: var(--colortheme);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--snow);
   font-size:1.5em;
 
 }
@@ -108,6 +144,7 @@ h6{
 }
 .halloween{
   color:var(--halloween);
+  font-size: larger;
 }
 .azzurri{
   background-color: var(--azzurra);
@@ -158,6 +195,19 @@ h6{
 .lime-stone{
   color:var(--limestone)
 }
+.snow{
+  color:var(--snow);
+}
+.offer-text{
+  color:var(--halloween);
+  font-size:1.5rem;
+  margin:12px;
+}
+.offer-product{
+  color:var(--rosso);
+  font-size:1.75rem;
+  margin:12px;
+}
 .bg-text{
   top:50%;
   left:50%;
@@ -168,5 +218,7 @@ h6{
   position:relative;
   z-index: 99;
 }
+
+
 
   

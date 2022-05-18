@@ -27,7 +27,9 @@
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
-.topnav a:hover {
+.topnav a:hover,
+.topnav a:focus,
+.topnav a:active {
   -webkit-text-fill-color: var(--azzurra); /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color:var(--snow);
@@ -110,6 +112,7 @@
   opacity: 1;
 
 }
+
 #nav:checked + .nav-btn{
   transform: rotate(45deg);
 
