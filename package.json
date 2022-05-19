@@ -1,7 +1,7 @@
 {
   "name": "react-router",
   "version": "0.1.0",
-  "homepage": "https://github.com/MauroPerez21/react-router.git",
+  "homepage": "https://github.com/MauroPerez21/react-router",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
