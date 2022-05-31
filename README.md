@@ -9,7 +9,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## Deploy to gh-pages
 
-When package.json is completely configured [https://create-react-app.dev/docs/deployment/]
+When package.json is completely configured [config](https://create-react-app.dev/docs/deployment/)
 Follow instructions:
 
 ### `npm run build`
