@@ -21,6 +21,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+
+
 Deployment is ready to upload
 …or create a new repository on the command line
 echo "# react-router" >> README.md
@@ -31,6 +33,8 @@ git branch -M main
 git remote add origin https://github.com/MauroPerez21/react-router.git
 git push -u origin main
 
+##React With Github pages
+- npm run deploy
 
 ### `npm run eject`
 
