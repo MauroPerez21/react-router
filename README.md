@@ -8,6 +8,7 @@ Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ## Deploy to gh-pages
+
 When package.json is completely configured [https://create-react-app.dev/docs/deployment/]
 Follow instructions:
 
@@ -33,8 +34,15 @@ git branch -M main
 git remote add origin https://github.com/MauroPerez21/react-router.git
 git push -u origin main
 
-##React With Github pages
-- npm run deploy
+## React With Github pages
+
+When Git repository is done, create a new branch gh-pages from master / or main as your prefence
+### `npm run deploy`
+Settings and sidebar pages there is the default url:https://github.com/MauroPerez21/react-router.git
+
+## Configure The Domain
+
+Adding a CNAME file to the public folder
 
 ### `npm run eject`
 
