@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/react-router/static/css/main.a287eb56.chunk.css",
+    "main.js": "/react-router/static/js/main.f6da94fd.chunk.js",
+    "main.js.map": "/react-router/static/js/main.f6da94fd.chunk.js.map",
+    "runtime-main.js": "/react-router/static/js/runtime-main.949c1f94.js",
+    "runtime-main.js.map": "/react-router/static/js/runtime-main.949c1f94.js.map",
+    "static/css/2.d8eaba60.chunk.css": "/react-router/static/css/2.d8eaba60.chunk.css",
+    "static/js/2.edebc119.chunk.js": "/react-router/static/js/2.edebc119.chunk.js",
+    "static/js/2.edebc119.chunk.js.map": "/react-router/static/js/2.edebc119.chunk.js.map",
+    "index.html": "/react-router/index.html",
+    "static/css/2.d8eaba60.chunk.css.map": "/react-router/static/css/2.d8eaba60.chunk.css.map",
+    "static/css/main.a287eb56.chunk.css.map": "/react-router/static/css/main.a287eb56.chunk.css.map",
+    "static/js/2.edebc119.chunk.js.LICENSE.txt": "/react-router/static/js/2.edebc119.chunk.js.LICENSE.txt",
+    "static/media/SEA.ac21277b.png": "/react-router/static/media/SEA.ac21277b.png",
+    "static/media/city.6be5573d.mp4": "/react-router/static/media/city.6be5573d.mp4",
+    "static/media/logo.7e3c6d79.svg": "/react-router/static/media/logo.7e3c6d79.svg",
+    "static/media/logo192.c5802781.png": "/react-router/static/media/logo192.c5802781.png",
+    "static/media/logo512.4a160fa6.png": "/react-router/static/media/logo512.4a160fa6.png",
+    "static/media/index.css": "/react-router/static/media/london.8023953a.png",
+    "static/media/mobile.7576f5c5.png": "/react-router/static/media/mobile.7576f5c5.png",
+    "static/media/paris.83928a7a.png": "/react-router/static/media/paris.83928a7a.png",
+    "static/media/people.8faf40b8.png": "/react-router/static/media/people.8faf40b8.png",
+    "static/media/phone.0d986088.png": "/react-router/static/media/phone.0d986088.png",
+    "static/media/pngaaa.com-2106915.3b887f87.png": "/react-router/static/media/pngaaa.com-2106915.3b887f87.png",
+    "static/media/pngaaa.com-2106980.8f1acaf7.png": "/react-router/static/media/pngaaa.com-2106980.8f1acaf7.png",
+    "static/media/pngaaa.com-2515331.4134f763.png": "/react-router/static/media/pngaaa.com-2515331.4134f763.png",
+    "static/media/pngaaa.com-2515386.1780ef36.png": "/react-router/static/media/pngaaa.com-2515386.1780ef36.png",
+    "static/media/pngaaa.com-2515423.b4a88ac2.png": "/react-router/static/media/pngaaa.com-2515423.b4a88ac2.png",
+    "static/media/pngaaa.com-2515427.23893eaa.png": "/react-router/static/media/pngaaa.com-2515427.23893eaa.png",
+    "static/media/pngaaa.com-989975.0e7b96d3.png": "/react-router/static/media/pngaaa.com-989975.0e7b96d3.png",
+    "static/media/pngaaa.com-989990.1e01236c.png": "/react-router/static/media/pngaaa.com-989990.1e01236c.png",
+    "static/media/world.564fdf47.png": "/react-router/static/media/world.564fdf47.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.949c1f94.js",
+    "static/css/2.d8eaba60.chunk.css",
+    "static/js/2.edebc119.chunk.js",
+    "static/css/main.a287eb56.chunk.css",
+    "static/js/main.f6da94fd.chunk.js"
+  ]
+}
