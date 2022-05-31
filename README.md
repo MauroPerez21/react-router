@@ -26,13 +26,13 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 Deployment is ready to upload
 …or create a new repository on the command line
-echo "# react-router" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/MauroPerez21/react-router.git
-git push -u origin main
+- echo "# react-router" >> README.md
+- git init
+- git add README.md
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin https://github.com/MauroPerez21/react-router.git
+- git push -u origin main
 
 ## React With Github pages
 
