@@ -1,0 +1,51 @@
+.bgColor {
+    background: var(--deepcolor);
+}
+
+.colortheme {
+    color: var(--grin);
+    transform: translateY(5px);
+}
+
+.wrapper {
+    padding: 12px;
+}
+
+.bannerList {
+    list-style: square;
+}
+.bannerList li {
+    margin-left: 10%;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+    color: var(--colortheme);
+    text-align: left;
+}
+
+::marker {
+    color: var(--colortheme);
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0 !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+.curly {
+    background: url('./curly.png');
+    height: 15vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.backgroundText {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f1f1f1;
+}
+
+
+  

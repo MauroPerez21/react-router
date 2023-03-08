@@ -1,0 +1,29 @@
+.pageListContainer{
+    text-align: center;
+    max-width: 50%;
+    margin:0 auto;
+}
+.pageList{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+   
+}
+.pageList button{
+    border:none;
+    padding:0.25em 0.5em;
+    cursor:pointer;
+    border-radius: 50%;
+}
+.pageList button:hover,
+.pageList button:focus
+{
+    background: #333;
+    color:rgb(237, 237, 237);
+}
+.pageLinks{
+    border-radius: 50%;
+    border: 2px solid gray;
+}

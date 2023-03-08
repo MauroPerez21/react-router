@@ -1,0 +1,42 @@
+
+.iconsGrid{
+    margin-top: 4em auto;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, minmax(0,1fr));
+    gap: 10px; 
+}
+.iconsGrid i{
+    font-size: 48px;
+}
+.facartarrowdown{
+    font-size: 144px;
+    color:var(--colortheme);
+}
+
+.countersTrash, .countersBtn button{
+    padding:2px 12px;
+    border:1px solid transparent;
+    border-radius: 25%;
+    font-weight: 900;
+    background: var(--deepcolor);
+    color:var(--snow);
+    transition: 250ms ease-in;
+}
+
+.countersBtn button:hover,
+.countersTrash:hover
+{
+    border:1px solid var(--deepcolor);
+    background: var(--snow);
+    color:var(--deepcolor);
+}
+button a{
+    text-decoration: none;
+    color:var(--deepcolor);
+    transition: 0.5s ease-in-out;
+}
+button a:hover{
+    text-decoration: none;
+    color:var(--snow);
+}

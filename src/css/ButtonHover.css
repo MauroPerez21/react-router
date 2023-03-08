@@ -12,13 +12,13 @@
     border-radius: 30px;
 }
 .btn-banner::before, .btn-banner::after{
-content: "";
-position:absolute;
-width:14px;
-height:4px; 
-background:rgba(253, 253, 253, 0.8);
-transform:skewX(50deg);
-transition:.4s linear;
+    content: "";
+    position:absolute;
+    width:14px;
+    height:4px; 
+    background:rgba(253, 253, 253, 0.8);
+    transform:skewX(50deg);
+    transition:.4s linear;
 }
 .btn-banner::before{
     top: -4px;

@@ -1,0 +1,20 @@
+.textVertical {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    position: fixed;
+    color: var(--azzurra);
+    align-items: center;
+  }
+  .icontainerDgrid {
+    display: grid;
+    float: right;
+    grid-template-columns: auto;
+    padding: 12px 18px;
+  
+}
+.bgColor{
+    background:var(--deepcolor);
+    color:var(--snow);
+    border-bottom: 2px solid var(--colortheme);
+}
+

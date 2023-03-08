@@ -1,0 +1,30 @@
+.rosso {
+    color: var(--rosso);
+  }
+  
+  .halloween {
+    color: var(--halloween);
+    font-size: larger;
+  }
+  
+  .azzurri {
+    background-color: var(--azzurra);
+  }
+  .lime-stone {
+    color: var(--limestone)
+  }
+  
+  .snow {
+    color: var(--snow);
+  }
+  
+  .storeIcon {
+    color: var(--azzurra);
+  }
+  .deepcolor {
+    background-color: var(--deepcolor);
+  }
+  
+  
+  
+  

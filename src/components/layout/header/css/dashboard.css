@@ -1,0 +1,67 @@
+.expo-list {
+  list-style: none;
+  text-align: right;
+}
+
+
+.btn-aside {
+  padding: 5px;
+  border-bottom: 1px solid var(--snow);
+  width: 100%;
+  color: var(--snow);
+  background: var(--deepcolor);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-right: 5%;
+  text-align: right;
+}
+
+.btn-aside em {
+  -webkit-text-fill-color: var(--deepcolor);
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--snow);
+}
+
+.btn-aside em:hover,
+.btn-aside em:focus,
+.btn-aside em:active {
+  -webkit-text-fill-color: var(--halloween);
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--snow);
+}
+.cart-icon {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--snow);
+
+}
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+}
+/* SIDEBAR */
+.sidebar {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f1f1f1;
+  display: block;
+}
+
+/* Style links on mouse-over */
+.sidebar:hover {
+  color: var(--halloween);
+}
+
+/* Style the main content */
+.dashboardBtn a{
+  color:var(--snow);
+  text-decoration: none;
+}
+.dashboardBtn a:hover{
+  color:var(--deepcolor);
+}

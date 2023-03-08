@@ -1,0 +1,27 @@
+/*SLOPE IN INTRO*/
+.background {
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-footer {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*OTHER*/
+.sweet-loading {
+  height: 100vh;
+  background: var(--deepcolor);
+}
+
+
+
+.bg-banner {
+  background-image: linear-gradient(to top, rgba(40, 44, 52, 0.375), rgba(40, 44, 52, 0.875), var(--deepcolor));
+}
+
+@media screen and (max-width: 768px) {}

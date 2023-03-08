@@ -1,0 +1,70 @@
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin:2em;
+    grid-column-gap: 2em;
+    grid-row-gap: 2rem;
+}
+.cardContainer article{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width:400px;
+    overflow:hidden;
+    border-radius:25px;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Lato", sans-serif;
+    font-size:1rem;
+    line-height:1.5;
+    margin:15px; 
+    border:1px solid transparent;
+}
+.cardContainer article:hover{
+    border:1px solid var(--deepcolor);
+}
+.cardPlan img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+.cardContainer header{
+    padding:25px;
+    top: 0;
+    background: var(--deepcolor);
+    width:100%;
+    color:var(--snow);
+    text-transform:uppercase;
+    font-size: 24px;
+    font-weight:700px;
+}
+.cardPlan section{
+    padding:0.5em 1em;
+    margin:0 auto;
+    background: #f9f9f9;
+    width:100%;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.125em;
+}
+.cardPlan section h4{
+    text-transform: uppercase;
+}
+.cardPlan button{
+    display: inline-block;
+    margin:15px;
+    padding:8px 20px;
+    text-decoration: none;
+    color:var(--deepcolor);
+    background: var(--snow);
+    border-radius: 5px;
+    border:1px solid var(--deepcolor);
+    letter-spacing: 0.02em;
+    font-weight: bold;
+}
+.cardPlan button:hover {
+    background: var(--deepcolor);
+    color: var(--snow);
+}
+

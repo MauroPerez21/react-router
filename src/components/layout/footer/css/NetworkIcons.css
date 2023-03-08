@@ -1,0 +1,92 @@
+.icon {
+    font-size: 2rem;
+}
+
+.icon-phone {
+    color: var(--rosso);
+}
+
+
+.red-icon {
+    color: var(--redwine);
+    font-size: 4rem;
+}
+
+
+.network {
+    color: var(--snow);
+}
+
+.network-wine {
+    color: var(--redwine);
+}
+
+.network-whatsapp {
+    color: var(--limestone);
+
+}
+
+.network-facebook {
+    color: var(--azzurra);
+}
+
+.node-icon {
+    font-size: 2em;
+    color: var(--limestone);
+
+}
+
+.x8-icon {
+    font-size: 8em;
+    color: #777;
+}
+
+.aref {
+    font-size: 2em;
+    transition: transform .2s
+}
+
+.aref:hover {
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+@media screen and (max-width: 768px) {
+    .aref {
+        font-size: 1.25em;
+    }
+}
+
+.topbtn {
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 24px;
+    /* Place the button at the bottom of the page */
+    right: 24px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: var(--deepcolor);
+    /* Set a background color */
+    color: var(--halloween);
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 50%;
+    /* Rounded corners */
+    font-size: 1.5rem;
+    /* Increase font size */
+}
+
+.topbtn:hover {
+    background-color: var(--halloween);
+    /* Set a background color */
+    color: var(--deepcolor);
+    /* Text color */
+}
